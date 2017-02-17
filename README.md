@@ -1,2 +1,2 @@
-# node-es6-websocket-server
-Serveur Nodejs en es6 (transpilé avec Babeljs) avec support WebSocket socket.io.
+# node-websocket-server
+Serveur Nodejs avec support WebSocket socket.io.

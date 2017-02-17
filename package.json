@@ -1,0 +1,35 @@
+{
+  "name": "node-express-es6-ws",
+  "version": "1.0.0",
+  "description": "Base serveur applicatif Angular écrite en es6 avec express et support des websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/serveur/main.js",
+    "serve": "node src/serveur/main.js"
+  },
+  "keywords": [
+    "es6",
+    "node",
+    "express",
+    "websocket",
+    "socket.io"
+  ],
+  "author": "Jeff Le Foll",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+    "serve-static": "^1.11.2",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  }
+}
