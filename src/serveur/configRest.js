@@ -1,7 +1,7 @@
 'use strict';
 const restRoutes = require('./rest/index').restEndPoints;
 
-class ConfigRouter {
+class ConfigRest {
     constructor() {}
 
     enregistrerRoute(expressApp) {
@@ -11,4 +11,4 @@ class ConfigRouter {
     }
 }
 
-module.exports = ConfigRouter;
+module.exports = ConfigRest;

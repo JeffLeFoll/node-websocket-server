@@ -1,8 +1,10 @@
 'use strict';
 const Serveur = require('./serveur');
-const ConfigRouter = require('./configRouter');
+const ConfigRest = require('./configRest');
+const ConfigWebSocket = require('./configWebSocket');
 
-let configRouter = new ConfigRouter();
+let configRest = new ConfigRest();
+let configWebSocket = new ConfigWebSocket();
 
-let srv = new Serveur(configRouter);
+let srv = new Serveur(configRest, configWebSocket);
 srv.start();
